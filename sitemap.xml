@@ -2,49 +2,67 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
    <url>
       <loc>https://www.learnfromscratch.online/</loc>
-      <lastmod>2023-12-17</lastmod>
+      <lastmod>2024-03-19</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.1</priority>
    </url>
    <url>
       <loc>https://learnfromscratch.online/index.html</loc>
-      <lastmod>2023-12-17</lastmod>
+      <lastmod>2024-03-19</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.1</priority>
    </url>
    <url>
       <loc>https://learnfromscratch.online/posts/posts.html</loc>
-      <lastmod>2023-12-12</lastmod>
+      <lastmod>2024-03-19</lastmod>
       <changefreq>weekly</changefreq>
       <priority>0.5</priority>
    </url>
    <url>
       <loc>https://learnfromscratch.online/tutorials/tutorials.html</loc>
-      <lastmod>2023-12-22</lastmod>
+      <lastmod>2024-03-19</lastmod>
       <changefreq>weekly</changefreq>
       <priority>0.5</priority>
    </url>
    <url>
       <loc>https://learnfromscratch.online/tutorials/springreact/springreact.html</loc>
-      <lastmod>2023-12-22</lastmod>
+      <lastmod>2024-03-19</lastmod>
       <changefreq>weekly</changefreq>
       <priority>0.6</priority>
    </url>
    <url>
+      <loc>https://learnfromscratch.online/tutorials/springreact/1-choosinguiframework.html</loc>
+      <lastmod>2024-03-19</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.2</priority>
+   </url>
+   <url>
+      <loc>https://learnfromscratch.online/tutorials/springreact/2-sqlnosql.html</loc>
+      <lastmod>2024-03-19</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.2</priority>
+   </url>
+   <url>
+      <loc>https://learnfromscratch.online/tutorials/springreact/3-setupspring.html</loc>
+      <lastmod>2024-03-19</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.2</priority>
+   </url>
+   <url>
       <loc>https://learnfromscratch.online/pages/footer/about.html</loc>
-      <lastmod>2023-12-22</lastmod>
+      <lastmod>2024-03-19</lastmod>
       <changefreq>yearly</changefreq>
       <priority>0.1</priority>
    </url>
    <url>
       <loc>https://learnfromscratch.online/pages/footer/privicy.html</loc>
-      <lastmod>2023-12-22</lastmod>
+      <lastmod>2024-03-19</lastmod>
       <changefreq>yearly</changefreq>
       <priority>0.1</priority>
    </url>
       <url>
       <loc>https://learnfromscratch.online/pages/footer/terms.html</loc>
-      <lastmod>2023-12-22</lastmod>
+      <lastmod>2024-03-19</lastmod>
       <changefreq>yearly</changefreq>
       <priority>0.1</priority>
    </url>
