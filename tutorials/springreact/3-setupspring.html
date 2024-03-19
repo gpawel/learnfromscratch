@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Setting Up a Dev Environment</title>
+</head>
+<body>
+    <header>
+        <h1>Setup Spring Bood development environment</h1>
+        <p><time datetime="2023-12-20">Dec 20, 2023</time></p>
+        <address>
+            by <a href="mailto:info@learnfromscratch.online">info@learnfromscratch.online</a>
+            in <span>FullStack, Tutorials</span>
+        </address>
+    </header>
+    <section>
+        <p><strong>You</strong></p>
+        <blockquote>
+            <p>Ok. Let’s set up a dev environment.</p>
+        </blockquote>
+    </section>
+    <section>
+        <p><strong>ChatGPT</strong></p>
+        <blockquote>
+            <p>Setting up your development environment for a project using React (for the frontend) and Spring Boot (for the backend) with an SQL database involves several steps. Here’s a comprehensive guide to get you started:</p>
+            <ol>
+                <li>Install Java for Spring Boot</li>
+                <li>Set Up Spring Boot</li>
+                <li>Install Node.js and npm for React</li>
+                <li>Set Up React</li>
+                <li>Install Database</li>
+                <li>Version Control with Git</li>
+                <li>Other Useful Tools</li>
+                <li>Environment Check</li>
+                <li>Initial Project Setup</li>
+                <li>First Run</li>
+            </ol>
+            <p>If you need detailed instructions for any of the steps or run into any issues during setup, feel free to ask!</p>
+        </blockquote>
+    </section>
+    <section>
+        <p><strong>You</strong></p>
+        <blockquote>
+            <p>Spring initializer offers a dependency called web reactive web with WebFlux and Netty. What are those libraries for?</p>
+        </blockquote>
+    </section>
+    <section>
+        <p><strong>ChatGPT</strong></p>
+        <blockquote>
+            <p>Spring’s “Reactive Web” dependency with WebFlux and Netty is designed for building reactive applications in Spring. To understand this, it’s helpful to know what reactive programming is and how WebFlux and Netty fit into this paradigm.</p>
+            <h2>Reactive Programming</h2>
+            <p>Paradigm: Reactive programming is a programming paradigm oriented around data flows and the propagation of change. This means it’s excellent for applications that need to handle a lot of asynchronous data streams (like live chat, real-time feeds, etc.).</p>
+            <h2>Spring WebFlux</h2>
+            <p>Purpose: WebFlux is part of the Spring Framework 5 and provides the means to build reactive applications. It supports non-blocking, asynchronous request processing.</p>
+            <h2>Netty</h2>
+            <p>What is Netty?: Netty is an asynchronous, event-driven network application framework. It’s used for rapid development of high-performance protocol servers and clients.</p>
+            <p>In summary, the “Reactive Web” dependency with WebFlux and Netty in Spring Initializr is intended for building reactive, non-blocking web applications. It’s particularly beneficial for applications that need to handle a large number of concurrent requests efficiently or work with real-time, streaming data.</p>
+        </blockquote>
+    </section>
+    <section>
+        <p><strong>You</strong></p>
+        <blockquote>
+            <p>Thank you. For #2 above I got the following dependencies so far for the spring initializer: Spring Web, Spring JPA, Lombok, MySQL driver, Spring Boot DevTools, Jersey. Do you think I may not need some of it? Have I missed anything?</p>
+        </blockquote>
+    </section>
+    <section>
+        <p><strong>ChatGPT</strong></p>
+        <blockquote>
+            <p>Your selection of dependencies for your Spring Boot project looks solid for a typical web application with a database backend. Let’s briefly review each dependency and its purpose:</p>
+            <ul>
+                <li>Spring Web</li>
+                <li>Spring Data JPA</li>
+                <li>Lombok</li>
+                <li>MySQL Driver</li>
+                <li>Spring Boot DevTools</li>
+            </ul>
+            <p>Your current selection is quite comprehensive for a standard web application with a database. You might not need Jersey if you’re comfortable using Spring MVC for RESTful services. Consider future needs like security and validation, depending on your application requirements.</p>
+        </blockquote>
+    </section>
+    <section>
+        <p><strong>You</strong></p>
+        <blockquote>
+            <p>Thank you. I will remove Jersey since it is too much.</p>
+        </blockquote>
+    </section>
+    <section>
+        <p><strong>ChatGPT</strong></p>
+        <blockquote>
+            <p>Removing Jersey sounds like a good decision, especially since Spring Web (Spring MVC) already provides robust support for building RESTful web services, which simplifies your project setup and reduces complexity.</p>
+            <p>If you have any further questions, need guidance on setting up your project, or want to delve into specifics like creating REST endpoints, structuring your project, or anything else related to Spring Boot and React development, feel free to ask. I’m here to help you through your development journey!</p>
+        </blockquote>
+    </section>
+</body>
+</html>
